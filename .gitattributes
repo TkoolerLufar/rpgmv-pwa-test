@@ -1,0 +1,9 @@
+*.json text
+*.html text diff=html
+*.css  text diff=css
+*.js   text
+*.ogg  binary
+*.m4a  binary
+*.ttf  binary
+*.png  binary
+Game.rpgproject text
