@@ -1,0 +1,236 @@
+/*
+    * 下記のの CSS はRPGツクールMVのウィンドウスキンを模倣したものです。
+    * RPGMV 関連の Web ページでのみ使用できます。
+    *
+    * [English]
+    * The following CSS is an imitation of the windowskin in RPG Maker MV.
+    * You only can use in your Web page which is related to RPGMV.
+*/
+.likeRPGMV {
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, .302),
+        0 0 0 1px inset rgba(0, 0, 0, .302);
+    margin: 1px;
+    padding: 14px;
+    box-sizing: content-box;
+
+    background: rgba(42, 37, 43, .78) repeating-linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0) 1px,
+        rgba(0, 0, 0, .13) 1px,
+        rgba(0, 0, 0, .13) 2px
+    );
+    text-shadow:
+        -1px -1px 0 rgba(0, 0, 0, .5),
+        -1px +1px 0 rgba(0, 0, 0, .5),
+        +1px -1px 0 rgba(0, 0, 0, .5),
+        +1px +1px 0 rgba(0, 0, 0, .5);
+    font: 28px/36px GameFont,
+        "M+ 1m regular", "M+ 1m",
+        "VL Gothic", "VL ゴシック",
+        "UmePlus Gothic",
+        "MS Gothic", "ＭＳ ゴシック",
+        monospace;
+}
+.likeRPGMV .textColor0, .likeRPGMV .normalColor, .likeRPGMV {
+    color: #ffffff;
+}
+.likeRPGMV .textColor1 {
+    color: #20a0d6;
+}
+.likeRPGMV .textColor2 {
+    color: #ff784c;
+}
+.likeRPGMV .textColor3 {
+    color: #66cc40;
+}
+.likeRPGMV .textColor4 {
+    color: #99ccff;
+}
+.likeRPGMV .textColor5 {
+    color: #ccc0ff;
+}
+.likeRPGMV .textColor6 {
+    color: #ffffa0;
+}
+.likeRPGMV .textColor7 {
+    color: #808080;
+}
+.likeRPGMV .textColor8 {
+    color: #c0c0c0;
+}
+.likeRPGMV .textColor9 {
+    color: #2080cc;
+}
+.likeRPGMV .textColor10 {
+    color: #ff3810;
+}
+.likeRPGMV .textColor11 {
+    color: #00a010;
+}
+.likeRPGMV .textColor12 {
+    color: #3e9ade;
+}
+.likeRPGMV .textColor13 {
+    color: #a098ff;
+}
+.likeRPGMV .textColor14 {
+    color: #ffcc20;
+}
+.likeRPGMV .textColor15 {
+    color: #000000;
+}
+.likeRPGMV .textColor16, .likeRPGMV .systemColor {
+    color: #84aaff;
+}
+.likeRPGMV .textColor17, .likeRPGMV .crisisColor {
+    color: #ffff40;
+}
+.likeRPGMV .textColor18, .likeRPGMV .deathColor {
+    color: #ff2020;
+}
+.likeRPGMV .textColor19, .likeRPGMV .gaugeBackColor {
+    color: #202040;
+}
+.likeRPGMV .textColor20, .likeRPGMV .hpGaugeColor1 {
+    color: #e08040;
+}
+.likeRPGMV .textColor21, .likeRPGMV .hpGaugeColor2 {
+    color: #f0c040;
+}
+.likeRPGMV .textColor22, .likeRPGMV .mpGaugeColor1 {
+    color: #4080c0;
+}
+.likeRPGMV .textColor23, .likeRPGMV .mpGaugeColor2, .likeRPGMV .mpCostColor {
+    color: #40c0f0;
+}
+.likeRPGMV .textColor24, .likeRPGMV .powerUpColor {
+    color: #80ff80;
+}
+.likeRPGMV .textColor25, .likeRPGMV .powerDownColor {
+    color: #c08080;
+}
+.likeRPGMV .textColor26 {
+    color: #8080ff;
+}
+.likeRPGMV .textColor27 {
+    color: #ff80ff;
+}
+.likeRPGMV .textColor28, .likeRPGMV .tpGaugeColor1 {
+    color: #00a040;
+}
+.likeRPGMV .textColor29, .likeRPGMV .tpGaugeColor2, .likeRPGMV .tpCostColor {
+    color: #00e060;
+}
+.likeRPGMV .textColor30 {
+    color: #a060e0;
+}
+.likeRPGMV .textColor31 {
+    color: #c080ff;
+}
+.likeRPGMV .pendingColor {
+    color: rgba(163, 255, 224, .451);
+}
+.likeRPGMV .makeFontBigger {
+    font-size: calc(1em + 12px);
+}
+.likeRPGMV .makeFontSmaller {
+    font-size: calc(1em - 12px);
+}
+.likeRPGMV .hpGauge,
+.likeRPGMV .mpGauge,
+.likeRPGMV .tpGauge {
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(to top,
+        #202040, #202040 6px,
+        transparent 6px, transparent);
+    padding: 0;
+    overflow: visible;
+    text-align: end;
+}
+.likeRPGMV .hpGauge > :first-child,
+.likeRPGMV .mpGauge > :first-child,
+.likeRPGMV .tpGauge > :first-child {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 6px;
+}
+.likeRPGMV .hpGauge > :first-child {
+    background: linear-gradient(to right, #e08040, #f0c040);
+}
+.likeRPGMV .mpGauge > :first-child {
+    background: linear-gradient(to right, #4080c0, #40c0f0);
+}
+.likeRPGMV .tpGauge > :first-child {
+    background: linear-gradient(to right, #00a040, #00e060);
+}
+.likeRPGMV.dimmer {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: none;
+    padding: 18px;
+    background:
+        linear-gradient(to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.6) 18px,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0)),
+        linear-gradient(to top,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.6) 18px,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0));
+}
+.likeRPGMV a[href] {
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    padding: 0 6px;
+    color: inherit;
+    text-decoration: underline;
+}
+.likeRPGMV p:first-child {
+    margin-top: 0;
+}
+.likeRPGMV p:last-child {
+    margin-bottom: 0;
+}
+.likeRPGMV.open, .likeRPGMV.close {
+    animation: likeRPGMV-open 133ms linear both;
+}
+.likeRPGMV.open > *, .likeRPGMV.close > * {
+    animation: likeRPGMV-open-contents step-end both;
+    animation-duration: inherit;
+    animation-delay: inherit;
+}
+.likeRPGMV.close, .likeRPGMV.close > * {
+    animation-direction: reverse;
+}
+@keyframes likeRPGMV-open {
+    from {
+        transform: scaleY(0);
+        transform-origin: 50% 50%;
+    }
+    to {
+        transform: scaleY(1);
+        transform-origin: 50% 50%;
+    }
+}
+@keyframes likeRPGMV-open-contents {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: visible;
+    }
+}
