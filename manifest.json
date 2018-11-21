@@ -1,3 +1,12 @@
 {
+    "name": "正式名称ああああ",
+    "icons": [
+        {
+            "src": "icon/splash.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "black",
     "theme_color": "white"
 }
