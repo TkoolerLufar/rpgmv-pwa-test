@@ -1,6 +1,6 @@
 {
-    "short_name": "略称",
-    "name": "正式名称ああああ",
+    "short_name": "RPGMV PWA",
+    "name": "RPGツクールMV作品をPWAにしてみた",
     "icons": [
         {
             "src": "icon/icon.png",
