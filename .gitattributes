@@ -2,8 +2,10 @@
 *.html text diff=html
 *.css  text diff=css
 *.js   text
+*.txt  text
 *.ogg  binary
 *.m4a  binary
 *.ttf  binary
 *.png  binary
 Game.rpgproject text
+.gitattributes text
