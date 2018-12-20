@@ -23,7 +23,16 @@
  *
  */
 
- if ("serviceWorker" in navigator) {
+ if (
+     "serviceWorker" in navigator && (
+         location.protocol === 'https:' ||
+         location.protocol === 'http:' && (
+             /^127(?:\.\d+){3}$/.test(location.hostname) ||
+             location.hostname === '[::1]' ||
+             location.hostname === 'localhost'
+         )
+     )
+    ) {
      navigator.serviceWorker.register(
         PluginManager.parameters('RegisterServiceWorker')['ServiceWorkerScript']
      )
